@@ -3,3 +3,55 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background:white;
+    width: 212px;
+    height:200px;
+    top: 18px;		
+    position: relative;
+    display: inline-block;
+    margin:37px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+					
+	.container {
+    padding: 2px 16px;
+}
+
+.img {
+  	border-radius: 50%;
+  	width:80px;
+  	height:80px;
+	margin-top:-29px;
+	margin-left:60px
+}
+
+.name{
+	font-size:18px;
+	color:#E93939;
+}
+
+.delete{
+	font-size:14px;
+	color:#007FA3;
+	cursor:pointer
+}
+
+.mainDiv{
+    width: 860px;
+    height: auto;
+    background: #D8D8D8;
+    margin-left: 20px;    
+}
+
+.heading{
+	font-size: 36px;
+	color:#007FA3;
+	margin-left: 60px;    
+}
+
